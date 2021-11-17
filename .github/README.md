@@ -8,12 +8,12 @@ A [Flarum](http://flarum.org) funny extension. Add Automatic badge and label to 
 
 ## Actual Auto Badges
 
-   less than 10post: The Baby => icon `<i class="fas fa-baby" />`
-    less than 50 post: The Newbie => icon `<i class="fas fa-child" />`
-    less than 100 post: The Talker => icon `<i class="fas fa-bullhorn" />`
-    less than 300 post: The Teacher => icon `<i class="fas fa-chalkboard-teacher" />`
-    less than 600 post: The Monster! => icon `<i class="fab fa-optin-monster" />`
-    less than 1000 post: The Guru! => icon `<i class="fas fa-graduation-cap" />`
+   - less than 10post: The Baby => icon `<i class="fas fa-baby" />`
+   - less than 50 post: The Newbie => icon `<i class="fas fa-child" />`
+   - less than 100 post: The Talker => icon `<i class="fas fa-bullhorn" />`
+   - less than 300 post: The Teacher => icon `<i class="fas fa-chalkboard-teacher" />`
+   - less than 600 post: The Monster! => icon `<i class="fab fa-optin-monster" />`
+   - less than 1000 post: The Guru! => icon `<i class="fas fa-graduation-cap" />`
 
 ## Installation
 
