@@ -16,47 +16,55 @@ app.initializers.add('justoverclock/auto-post-count-badge', () => {
       const tierFour = app.forum.attribute('justoverclock-auto-post-count-badge.levelFour') || "fas fa-chalkboard-teacher" + " autopost";
       const tierFive = app.forum.attribute('justoverclock-auto-post-count-badge.levelFive') || "fab fa-optin-monster" + " autopost";
       const tierSix = app.forum.attribute('justoverclock-auto-post-count-badge.levelSix') || "fas fa-graduation-cap" + " autopost";
+      const tierSeven = app.forum.attribute('justoverclock-auto-post-count-badge.levelSeven') || "fas fa-medal" + " autopost";
 
 
       if (userPosts >= 0 && userPosts <= 10) {
         vnode.children.push(
           <span className="auto-badge">
-            <i class={tierOne} /> {app.translator.trans('justoverclock-auto-post-count-badge.forum.less10post')}
+            <i class={tierOne} /> {app.forum.attribute('justoverclock-auto-post-count-badge.badgeOne') || "The Baby"}
           </span>
         );
       }
       if (userPosts >= 10 && userPosts <= 50) {
         vnode.children.push(
           <span className="auto-badge">
-            <i class={tierTwo} /> {app.translator.trans('justoverclock-auto-post-count-badge.forum.less50post')}
+            <i class={tierTwo} /> {app.forum.attribute('justoverclock-auto-post-count-badge.badgeTwo') || "The Newbie"}
           </span>
         );
       }
       if (userPosts >= 50 && userPosts <= 100) {
         vnode.children.push(
           <span className="auto-badge">
-            <i class={tierTree} /> {app.translator.trans('justoverclock-auto-post-count-badge.forum.less100post')}
+            <i class={tierTree} /> {app.forum.attribute('justoverclock-auto-post-count-badge.badgeTree') || "The Talker"}
           </span>
         );
       }
       if (userPosts >= 100 && userPosts <= 300) {
         vnode.children.push(
           <span className="auto-badge">
-            <i class={tierFour} /> {app.translator.trans('justoverclock-auto-post-count-badge.forum.less300post')}
+            <i class={tierFour} /> {app.forum.attribute('justoverclock-auto-post-count-badge.badgeFour') || "The Teacher"}
           </span>
         );
       }
       if (userPosts >= 300 && userPosts <= 600) {
         vnode.children.push(
           <span className="auto-badge">
-            <i class={tierFive} /> {app.translator.trans('justoverclock-auto-post-count-badge.forum.less600post')}
+            <i class={tierFive} /> {app.forum.attribute('justoverclock-auto-post-count-badge.badgeFive') || "The Monster!"}
           </span>
         );
       }
       if (userPosts >= 600 && userPosts <= 1000) {
         vnode.children.push(
           <span className="auto-badge">
-            <i class={tierSix} /> {app.translator.trans('justoverclock-auto-post-count-badge.forum.less1000post')}
+            <i class={tierSix} /> {app.forum.attribute('justoverclock-auto-post-count-badge.badgeSix') || "The Guru!"}
+          </span>
+        );
+      }
+      if (userPosts >= 1000 && userPosts <= 2000) {
+        vnode.children.push(
+          <span className="auto-badge">
+            <i class={tierSeven} /> {app.forum.attribute('justoverclock-auto-post-count-badge.badgeSeven') || "The Flarumist!"}
           </span>
         );
       }
