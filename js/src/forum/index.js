@@ -26,42 +26,42 @@ app.initializers.add('justoverclock/auto-post-count-badge', () => {
           </span>
         );
       }
-      if (userPosts >= 10 && userPosts <= 50) {
+      if (userPosts >= 10 && userPosts <= 49) {
         vnode.children.push(
           <span className="auto-badge">
             <i class={tierTwo} /> {app.forum.attribute('justoverclock-auto-post-count-badge.badgeTwo') || "The Newbie"}
           </span>
         );
       }
-      if (userPosts >= 50 && userPosts <= 100) {
+      if (userPosts >= 50 && userPosts <= 99) {
         vnode.children.push(
           <span className="auto-badge">
             <i class={tierTree} /> {app.forum.attribute('justoverclock-auto-post-count-badge.badgeTree') || "The Talker"}
           </span>
         );
       }
-      if (userPosts >= 100 && userPosts <= 300) {
+      if (userPosts >= 100 && userPosts <= 299) {
         vnode.children.push(
           <span className="auto-badge">
             <i class={tierFour} /> {app.forum.attribute('justoverclock-auto-post-count-badge.badgeFour') || "The Teacher"}
           </span>
         );
       }
-      if (userPosts >= 300 && userPosts <= 600) {
+      if (userPosts >= 300 && userPosts <= 599) {
         vnode.children.push(
           <span className="auto-badge">
             <i class={tierFive} /> {app.forum.attribute('justoverclock-auto-post-count-badge.badgeFive') || "The Monster!"}
           </span>
         );
       }
-      if (userPosts >= 600 && userPosts <= 1000) {
+      if (userPosts >= 600 && userPosts <= 999) {
         vnode.children.push(
           <span className="auto-badge">
             <i class={tierSix} /> {app.forum.attribute('justoverclock-auto-post-count-badge.badgeSix') || "The Guru!"}
           </span>
         );
       }
-      if (userPosts >= 1000 && userPosts <= 2000) {
+      if (userPosts >= 1000 && userPosts <= 1999) {
         vnode.children.push(
           <span className="auto-badge">
             <i class={tierSeven} /> {app.forum.attribute('justoverclock-auto-post-count-badge.badgeSeven') || "The Flarumist!"}
