@@ -30,6 +30,8 @@ return [
         ->serializeToForum('justoverclock-auto-post-count-badge.levelFive', 'justoverclock-auto-post-count-badge.levelFive')
         ->serializeToForum('justoverclock-auto-post-count-badge.levelSix', 'justoverclock-auto-post-count-badge.levelSix')
         ->serializeToForum('justoverclock-auto-post-count-badge.levelSeven', 'justoverclock-auto-post-count-badge.levelSeven')
+        ->serializeToForum('justoverclock-auto-post-count-badge.levelEight', 'justoverclock-auto-post-count-badge.levelEight')
+        ->serializeToForum('justoverclock-auto-post-count-badge.levelNine', 'justoverclock-auto-post-count-badge.levelNine')
     // Text Settings
         ->serializeToForum('justoverclock-auto-post-count-badge.badgeOne', 'justoverclock-auto-post-count-badge.badgeOne')
         ->serializeToForum('justoverclock-auto-post-count-badge.badgeTwo', 'justoverclock-auto-post-count-badge.badgeTwo')
@@ -38,4 +40,7 @@ return [
         ->serializeToForum('justoverclock-auto-post-count-badge.badgeFive', 'justoverclock-auto-post-count-badge.badgeFive')
         ->serializeToForum('justoverclock-auto-post-count-badge.badgeSix', 'justoverclock-auto-post-count-badge.badgeSix')
         ->serializeToForum('justoverclock-auto-post-count-badge.badgeSeven', 'justoverclock-auto-post-count-badge.badgeSeven')
+        ->serializeToForum('justoverclock-auto-post-count-badge.badgeEight', 'justoverclock-auto-post-count-badge.badgeEight')
+        ->serializeToForum('justoverclock-auto-post-count-badge.badgeNine', 'justoverclock-auto-post-count-badge.badgeNine')
+
 ];
