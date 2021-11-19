@@ -20,7 +20,7 @@ app.initializers.add('justoverclock/auto-post-count-badge', () => {
       const tierEight = app.forum.attribute('justoverclock-auto-post-count-badge.levelEight') || 'fas fa-stethoscope' + ' autopost';
       const tierNine = app.forum.attribute('justoverclock-auto-post-count-badge.levelNine') || 'fas fa-user-shield' + ' autopost';
 
-      if (userPosts >= 0 && userPosts <= 10) {
+      if (userPosts >= 0 && userPosts <= 9) {
         vnode.children.push(
           <span className="auto-badge">
             <i class={tierOne} /> {app.forum.attribute('justoverclock-auto-post-count-badge.badgeOne') || 'The Baby'}
