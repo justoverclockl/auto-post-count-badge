@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/justoverclock/auto-post-count-badge.svg)](https://packagist.org/packages/justoverclock/auto-post-count-badge) [![Total Downloads](https://img.shields.io/packagist/dt/justoverclock/auto-post-count-badge.svg)](https://packagist.org/packages/justoverclock/auto-post-count-badge)
 
-A [Flarum](https://flarum.org) funny extension. Add Automatic badge and label to user after certain number of posts
+A [Flarum](https://flarum.it) funny extension. Add Automatic badge and label to user after certain number of posts
 
 ![Immagine 2021-11-17 100716](https://user-images.githubusercontent.com/79002016/142171863-f10c3211-2126-4955-b9db-b342b51d10ab.png)
 
