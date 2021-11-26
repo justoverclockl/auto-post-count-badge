@@ -4,7 +4,8 @@
 
 A [Flarum](https://flarum.it) funny extension. Add Automatic badge and label to user after certain number of posts
 
-![Immagine 2021-11-17 100716](https://user-images.githubusercontent.com/79002016/142171863-f10c3211-2126-4955-b9db-b342b51d10ab.png)
+
+![Immagine 2021-11-26 225014](https://user-images.githubusercontent.com/79002016/143657265-40e0e0f2-5a5d-4565-9adf-b446314f20eb.png)
 
 ## Actual Auto Badges
 
