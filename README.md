@@ -20,6 +20,8 @@ A [Flarum](https://flarum.it) funny extension. Add Automatic badge and label to 
 
 ## If you need more customization, consider the PRO version of this extension
 
+https://extiverse.com/extension/justoverclock/auto-post-badge-pro
+
 ## Installation
 
 Install with composer:
