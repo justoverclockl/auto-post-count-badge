@@ -8,13 +8,11 @@
     ],
     "type": "flarum-extension",
     "license": "MIT",
-    "support": {
-        "forum": "https://discuss.flarum.org/d/29479",
-        "source": "https://github.com/justoverclockl/auto-post-count-badge",
-        "issues": "https://github.com/justoverclockl/auto-post-count-badge/issues"
-    },
     "require": {
         "flarum/core": "^1.0.0"
+    },
+    "require-dev": {
+        "flarum/testing": "^1.0.0"
     },
     "authors": [
         {

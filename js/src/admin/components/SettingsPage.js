@@ -128,6 +128,7 @@ export default class AutoPostBadgePage extends ExtensionPage {
               <i className="fas fa-save autopost" />
             </Button>
           </div>
+
         </div>
 
         <div className="column">
@@ -259,6 +260,7 @@ export default class AutoPostBadgePage extends ExtensionPage {
               <i className="fas fa-save autopost" />
             </Button>
           </div>
+
         </div>
       </div>
     );
