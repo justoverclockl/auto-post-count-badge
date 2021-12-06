@@ -19,4 +19,4 @@ justoverclock-auto-post-count-badge:
     less300post: The Teacher
     less600post: The Monster!
     less1000post: The Guru!
-    hasWritten: "{count, plural, one {# post writted} other {# posts written}}"
+    hasWritten: "{count, plural, one {# post written} other {# posts written}}"
