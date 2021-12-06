@@ -9,3 +9,4 @@ tests/.phpunit.result.cache
 .vagrant
 .idea/*
 .vscode
+package-lock.json
