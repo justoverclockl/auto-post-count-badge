@@ -71,27 +71,33 @@ class AddUserAttributes
         }
     }
 
+    private function getValue(string $key, string $default): string
+    {
+        $value = $this->settings->get(self::prefix . $key);
+        return empty($value) ? $default : $value;
+    }
+
     private function getBadgeForLevel(int $level): string
     {
         switch ($level) {
             case $level === 1:
-                return $this->settings->get(self::prefix . 'levelOne', 'fas fa-baby');
+                return $this->getValue('levelOne', 'fas fa-baby');
             case $level === 2:
-                return $this->settings->get(self::prefix . 'levelTwo', 'fas fa-child');
+                return $this->getValue('levelTwo', 'fas fa-child');
             case $level === 3:
-                return $this->settings->get(self::prefix . 'levelThree', 'fas fa-bullhorn');
+                return $this->getValue('levelThree', 'fas fa-bullhorn');
             case $level === 4:
-                return $this->settings->get(self::prefix . 'levelFour', 'fas fa-chalkboard-teacher');
+                return $this->getValue('levelFour', 'fas fa-chalkboard-teacher');
             case $level === 5:
-                return $this->settings->get(self::prefix . 'jlevelFive', 'fab fa-optin-monster');
+                return $this->getValue('levelFive', 'fab fa-optin-monster');
             case $level === 6:
-                return $this->settings->get(self::prefix . 'levelSix', 'fas fa-graduation-cap');
+                return $this->getValue('levelSix', 'fas fa-graduation-cap');
             case $level === 7:
-                return $this->settings->get(self::prefix . 'levelSeven', 'fas fa-medal');
+                return $this->getValue('levelSeven', 'fas fa-medal');
             case $level === 8:
-                return $this->settings->get(self::prefix . 'levelEight', 'fas fa-stethoscope');
+                return $this->getValue('levelEight', 'fas fa-stethoscope');
             case $level === 9:
-                return $this->settings->get(self::prefix . 'levelNine', 'fas fa-user-shield');
+                return $this->getValue('levelNine', 'fas fa-user-shield');
             default:
                 return '';
         }
@@ -101,23 +107,23 @@ class AddUserAttributes
     {
         switch ($level) {
             case $level === 1:
-                return $this->settings->get(self::prefix . 'badgeOne', 'The Baby');
+                return $this->getValue('badgeOne', 'The Baby');
             case $level === 2:
-                return $this->settings->get(self::prefix . 'badgeTwo', 'The Newbie');
+                return $this->getValue('badgeTwo', 'The Newbie');
             case $level === 3:
-                return $this->settings->get(self::prefix . 'badgeThree', 'The Talker');
+                return $this->getValue('badgeThree', 'The Talker');
             case $level === 4:
-                return $this->settings->get(self::prefix . 'badgeFour', 'The Teacher');
+                return $this->getValue('badgeFour', 'The Teacher');
             case $level === 5:
-                return $this->settings->get(self::prefix . 'badgeFive', 'The Monster!');
+                return $this->getValue('badgeFive', 'The Monster!');
             case $level === 6:
-                return $this->settings->get(self::prefix . 'badgeSix', 'The Guru!');
+                return $this->getValue('badgeSix', 'The Guru!');
             case $level === 7:
-                return $this->settings->get(self::prefix . 'badgeSeven', 'The Flarumist!');
+                return $this->getValue('badgeSeven', 'The Flarumist!');
             case $level === 8:
-                return $this->settings->get(self::prefix . 'badgeEight', 'Expert');
+                return $this->getValue('badgeEight', 'Expert');
             case $level === 9:
-                return $this->settings->get(self::prefix . 'badgeNine', 'Untouchable');
+                return $this->getValue('badgeNine', 'Untouchable');
             default:
                 return '';
         }
