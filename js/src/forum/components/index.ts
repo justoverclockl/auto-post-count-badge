@@ -1,3 +1,3 @@
-import PostCountBadge from "./PostCountBadge";
+import PostCountBadge from './PostCountBadge';
 
 export { PostCountBadge };

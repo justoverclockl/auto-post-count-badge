@@ -1,5 +1,15 @@
 justoverclock-auto-post-count-badge:
   admin:
+    settings:
+      tier: "Tier {tier} : from {from} to {to} posts"
+      icon-manager:
+        title: Icon Manager
+        help_text: => core.ref.icon_text
+      label-manager:
+        title: Text Label Manager
+        help: Customize tier names
+
+    # Are these used? Probably can remove them.
     levelOne: Change icon for tier 1 - "The Baby"
     levelOne-help: paste here the fontawesome icon that u want to show for tier 1 (e.g. "fas fa-square")
     levelTwo: Change icon for tier 2 - "The Newbie"
