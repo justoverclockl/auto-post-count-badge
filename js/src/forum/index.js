@@ -30,9 +30,7 @@ app.initializers.add('justoverclock/auto-post-count-badge', () => {
         return;
       }
 
-      vnode.children.push(
-        <PostCountBadge posts={userPosts} userClass={userClass} label={userBadgeLabel}/>
-      );
+      vnode.children.push(<PostCountBadge posts={userPosts} userClass={userClass} label={userBadgeLabel} />);
     }
   });
 });

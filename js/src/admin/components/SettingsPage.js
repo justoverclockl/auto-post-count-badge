@@ -14,12 +14,7 @@ export default class AutoPostBadgePage extends ExtensionPage {
 
           <div class="formOne">
             <div class="helptext">Tier 1 : from 0 to 10 posts</div>
-            <input
-              type="text"
-              name="tierOne"
-              class="FormControl autopost"
-              bidi={this.setting('justoverclock-auto-post-count-badge.levelOne')}
-            />
+            <input type="text" name="tierOne" class="FormControl autopost" bidi={this.setting('justoverclock-auto-post-count-badge.levelOne')} />
             <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
               <i className="fas fa-save autopost" />
             </Button>
@@ -27,12 +22,7 @@ export default class AutoPostBadgePage extends ExtensionPage {
 
           <div className="formtwo">
             <div className="helptext">Tier 2 : from 10 to 50 posts</div>
-            <input
-              type="text"
-              name="tierTwo"
-              class="FormControl autopost"
-              bidi={this.setting('justoverclock-auto-post-count-badge.levelTwo')}
-            />
+            <input type="text" name="tierTwo" class="FormControl autopost" bidi={this.setting('justoverclock-auto-post-count-badge.levelTwo')} />
             <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
               <i className="fas fa-save autopost" />
             </Button>
@@ -79,12 +69,7 @@ export default class AutoPostBadgePage extends ExtensionPage {
 
           <div className="formSix">
             <div className="helptext">Tier 6 : from 600 to 1000 posts</div>
-            <input
-              type="text"
-              name="tierSix"
-              className="FormControl autopost"
-              bidi={this.setting('justoverclock-auto-post-count-badge.levelSix')}
-            />
+            <input type="text" name="tierSix" className="FormControl autopost" bidi={this.setting('justoverclock-auto-post-count-badge.levelSix')} />
             <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
               <i className="fas fa-save autopost" />
             </Button>
