@@ -10,7 +10,7 @@ app.initializers.add('justoverclock/auto-post-count-badge', () => {
 
     if (checkRoute === 'discussion' || checkRoute === 'discussion.near' || checkRoute === 'blogArticle') {
       const post = this.attrs.post;
-      const userPosts = post.user().data.attributes.commentCount;
+      const userPosts = post.user()?.commentCount();
 
       const tierOne = app.forum.attribute('justoverclock-auto-post-count-badge.levelOne') || 'fas fa-baby' + ' autopost';
       const tierTwo = app.forum.attribute('justoverclock-auto-post-count-badge.levelTwo') || 'fas fa-child' + ' autopost';

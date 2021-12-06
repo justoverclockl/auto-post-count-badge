@@ -18,7 +18,6 @@ export default class AutoPostBadgePage extends ExtensionPage {
               type="text"
               name="tierOne"
               class="FormControl autopost"
-              placeholder="tier 1 far fa-square"
               bidi={this.setting('justoverclock-auto-post-count-badge.levelOne')}
             />
             <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
@@ -32,7 +31,6 @@ export default class AutoPostBadgePage extends ExtensionPage {
               type="text"
               name="tierTwo"
               class="FormControl autopost"
-              placeholder="tier 2 far fa-square"
               bidi={this.setting('justoverclock-auto-post-count-badge.levelTwo')}
             />
             <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
@@ -46,7 +44,6 @@ export default class AutoPostBadgePage extends ExtensionPage {
               type="text"
               name="tierTree"
               className="FormControl autopost"
-              placeholder="tier 3 far fa-square"
               bidi={this.setting('justoverclock-auto-post-count-badge.levelTree')}
             />
             <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
@@ -60,7 +57,6 @@ export default class AutoPostBadgePage extends ExtensionPage {
               type="text"
               name="tierFour"
               className="FormControl autopost"
-              placeholder="tier 4 far fa-square"
               bidi={this.setting('justoverclock-auto-post-count-badge.levelFour')}
             />
             <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
@@ -74,7 +70,6 @@ export default class AutoPostBadgePage extends ExtensionPage {
               type="text"
               name="tierFive"
               className="FormControl autopost"
-              placeholder="tier 5 far fa-square"
               bidi={this.setting('justoverclock-auto-post-count-badge.levelFive')}
             />
             <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
@@ -88,7 +83,6 @@ export default class AutoPostBadgePage extends ExtensionPage {
               type="text"
               name="tierSix"
               className="FormControl autopost"
-              placeholder="tier 6 far fa-square"
               bidi={this.setting('justoverclock-auto-post-count-badge.levelSix')}
             />
             <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
@@ -102,7 +96,6 @@ export default class AutoPostBadgePage extends ExtensionPage {
               type="text"
               name="tierSeven"
               className="FormControl autopost"
-              placeholder="tier 7 far fa-square"
               bidi={this.setting('justoverclock-auto-post-count-badge.levelSeven')}
             />
             <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
@@ -116,7 +109,6 @@ export default class AutoPostBadgePage extends ExtensionPage {
               type="text"
               name="tierEight"
               className="FormControl autopost"
-              placeholder="tier 8 far fa-square"
               bidi={this.setting('justoverclock-auto-post-count-badge.levelEight')}
             />
             <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
@@ -130,7 +122,6 @@ export default class AutoPostBadgePage extends ExtensionPage {
               type="text"
               name="tierNine"
               className="FormControl autopost"
-              placeholder="tier 9 far fa-square"
               bidi={this.setting('justoverclock-auto-post-count-badge.levelEight')}
             />
             <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
