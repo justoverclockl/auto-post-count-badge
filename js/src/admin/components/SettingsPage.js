@@ -46,7 +46,13 @@ export default class AutoPostBadgePage extends ExtensionPage {
             to: 9,
           })}
         </div>
-        <input type="text" name="tierOne" class="FormControl autopost" placeholder="fas fa-baby" bidi={this.setting('justoverclock-auto-post-count-badge.levelOne')} />
+        <input
+          type="text"
+          name="tierOne"
+          class="FormControl autopost"
+          placeholder="fas fa-baby"
+          bidi={this.setting('justoverclock-auto-post-count-badge.levelOne')}
+        />
         <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
           <i className="fas fa-save autopost" />
         </Button>
@@ -64,7 +70,13 @@ export default class AutoPostBadgePage extends ExtensionPage {
             to: 49,
           })}
         </div>
-        <input type="text" name="tierTwo" class="FormControl autopost" placeholder="fas fa-child" bidi={this.setting('justoverclock-auto-post-count-badge.levelTwo')} />
+        <input
+          type="text"
+          name="tierTwo"
+          class="FormControl autopost"
+          placeholder="fas fa-child"
+          bidi={this.setting('justoverclock-auto-post-count-badge.levelTwo')}
+        />
         <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
           <i className="fas fa-save autopost" />
         </Button>
@@ -82,7 +94,13 @@ export default class AutoPostBadgePage extends ExtensionPage {
             to: 99,
           })}
         </div>
-        <input type="text" name="tierTree" className="FormControl autopost" placeholder="fas fa-bullhorn" bidi={this.setting('justoverclock-auto-post-count-badge.levelTree')} />
+        <input
+          type="text"
+          name="tierTree"
+          className="FormControl autopost"
+          placeholder="fas fa-bullhorn"
+          bidi={this.setting('justoverclock-auto-post-count-badge.levelTree')}
+        />
         <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
           <i className="fas fa-save autopost" />
         </Button>
@@ -100,7 +118,13 @@ export default class AutoPostBadgePage extends ExtensionPage {
             to: 299,
           })}
         </div>
-        <input type="text" name="tierFour" className="FormControl autopost" placeholder="fas fa-chalkboard-teacher" bidi={this.setting('justoverclock-auto-post-count-badge.levelFour')} />
+        <input
+          type="text"
+          name="tierFour"
+          className="FormControl autopost"
+          placeholder="fas fa-chalkboard-teacher"
+          bidi={this.setting('justoverclock-auto-post-count-badge.levelFour')}
+        />
         <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
           <i className="fas fa-save autopost" />
         </Button>
@@ -118,7 +142,13 @@ export default class AutoPostBadgePage extends ExtensionPage {
             to: 599,
           })}
         </div>
-        <input type="text" name="tierFive" className="FormControl autopost" placeholder="fab fa-optin-monster" bidi={this.setting('justoverclock-auto-post-count-badge.levelFive')} />
+        <input
+          type="text"
+          name="tierFive"
+          className="FormControl autopost"
+          placeholder="fab fa-optin-monster"
+          bidi={this.setting('justoverclock-auto-post-count-badge.levelFive')}
+        />
         <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
           <i className="fas fa-save autopost" />
         </Button>
@@ -136,7 +166,13 @@ export default class AutoPostBadgePage extends ExtensionPage {
             to: 999,
           })}
         </div>
-        <input type="text" name="tierSix" className="FormControl autopost" placeholder="fas fa-graduation-cap" bidi={this.setting('justoverclock-auto-post-count-badge.levelSix')} />
+        <input
+          type="text"
+          name="tierSix"
+          className="FormControl autopost"
+          placeholder="fas fa-graduation-cap"
+          bidi={this.setting('justoverclock-auto-post-count-badge.levelSix')}
+        />
         <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
           <i className="fas fa-save autopost" />
         </Button>
@@ -154,7 +190,13 @@ export default class AutoPostBadgePage extends ExtensionPage {
             to: 1999,
           })}
         </div>
-        <input type="text" name="tierSeven" className="FormControl autopost" placeholder="fas fa-medal" bidi={this.setting('justoverclock-auto-post-count-badge.levelSeven')} />
+        <input
+          type="text"
+          name="tierSeven"
+          className="FormControl autopost"
+          placeholder="fas fa-medal"
+          bidi={this.setting('justoverclock-auto-post-count-badge.levelSeven')}
+        />
         <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
           <i className="fas fa-save autopost" />
         </Button>
@@ -172,7 +214,13 @@ export default class AutoPostBadgePage extends ExtensionPage {
             to: 3999,
           })}
         </div>
-        <input type="text" name="tierEight" className="FormControl autopost" placeholder="fas fa-stethoscope" bidi={this.setting('justoverclock-auto-post-count-badge.levelEight')} />
+        <input
+          type="text"
+          name="tierEight"
+          className="FormControl autopost"
+          placeholder="fas fa-stethoscope"
+          bidi={this.setting('justoverclock-auto-post-count-badge.levelEight')}
+        />
         <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
           <i className="fas fa-save autopost" />
         </Button>
@@ -190,7 +238,13 @@ export default class AutoPostBadgePage extends ExtensionPage {
             to: 7999,
           })}
         </div>
-        <input type="text" name="tierNine" className="FormControl autopost" placeholder="fas fa-user-shield" bidi={this.setting('justoverclock-auto-post-count-badge.levelEight')} />
+        <input
+          type="text"
+          name="tierNine"
+          className="FormControl autopost"
+          placeholder="fas fa-user-shield"
+          bidi={this.setting('justoverclock-auto-post-count-badge.levelEight')}
+        />
         <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
           <i className="fas fa-save autopost" />
         </Button>
