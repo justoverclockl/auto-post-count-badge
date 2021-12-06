@@ -34,3 +34,7 @@ app.initializers.add('justoverclock/auto-post-count-badge', () => {
     }
   });
 });
+
+import * as components from './components';
+
+export { components };
