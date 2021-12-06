@@ -37,7 +37,7 @@
     "extra": {
         "flarum-extension": {
             "title": "Auto Post Badge",
-            "category": "",
+            "category": "feature",
             "icon": {
                 "name": "fas fa-medal",
                 "backgroundColor": "orange",
