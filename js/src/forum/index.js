@@ -1,9 +1,9 @@
 import app from 'flarum/forum/app';
 import { extend } from 'flarum/common/extend';
 import PostUser from 'flarum/forum/components/PostUser';
-import Tooltip from 'flarum/common/components/Tooltip';
 import User from 'flarum/common/models/User';
 import Model from 'flarum/common/Model';
+import PostCountBadge from './components/PostCountBadge';
 
 app.initializers.add('justoverclock/auto-post-count-badge', () => {
   User.prototype.autoCountBadge = Model.attribute('autoCountBadge');
@@ -25,23 +25,13 @@ app.initializers.add('justoverclock/auto-post-count-badge', () => {
       const userClass = post.user().autoCountBadge();
       const userBadgeLabel = post.user().autoCountBadgeLabel();
 
+      // We don't have a class or label, so do nothing
+      if (userClass === '' || userBadgeLabel === '') {
+        return;
+      }
+
       vnode.children.push(
-        <span>
-          <Tooltip
-            text={
-              app.translator.trans('justoverclock-auto-post-count-badge.forum.hasWritten') +
-              ' ' +
-              userPosts +
-              ' ' +
-              app.translator.trans('justoverclock-auto-post-count-badge.forum.posts')
-            }
-          >
-            <span className="auto-badge">
-              <i class={userClass + ' autopost'} />
-              {userBadgeLabel}
-            </span>
-          </Tooltip>
-        </span>
+        <PostCountBadge posts={userPosts} userClass={userClass} label={userBadgeLabel}/>
       );
     }
   });
