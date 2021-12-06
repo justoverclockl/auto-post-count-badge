@@ -16,6 +16,9 @@ A [Flarum](https://flarum.it) funny extension. Add Automatic badge and label to 
    - less than 600 post: The Monster! => icon `<i class="fab fa-optin-monster" />`
    - less than 1000 post: The Guru! => icon `<i class="fas fa-graduation-cap" />`
    - more than 2000 posts
+   - more than 4000 posts
+
+## If you need more customization, consider the PRO version of this extension
 
 ## Installation
 
