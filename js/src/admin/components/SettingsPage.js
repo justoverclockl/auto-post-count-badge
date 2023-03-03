@@ -243,7 +243,7 @@ export default class AutoPostBadgePage extends ExtensionPage {
           name="tierNine"
           className="FormControl autopost"
           placeholder="fas fa-user-shield"
-          bidi={this.setting('justoverclock-auto-post-count-badge.levelEight')}
+          bidi={this.setting('justoverclock-auto-post-count-badge.levelNine')}
         />
         <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
           <i className="fas fa-save autopost" />
