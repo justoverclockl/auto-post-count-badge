@@ -9,12 +9,12 @@ export default class PostCountBadge extends Component {
     const userBadgeLabel = this.attrs.label;
     
     const isFontAwesome = /^fa/.test(userClass);
-    const isFile = /^file:/.test(userClass);
+    const isFile = /^link:/.test(userClass);
 
     const badgeIcon = isFontAwesome ? (
       <i class={userClass + ' autopost'} />
     ) : isFile ? (
-      <img class='autopost' src={userClass.replace('file:', '')} width="26" height="26" alt={userBadgeLabel} />
+      <img class='autopost' src={userClass.replace('link:', '')} width="26" height="26" alt={userBadgeLabel} />
     ) : <i class='fas fa-xmark autopost' />;
     return (
       <span>
