@@ -99,7 +99,7 @@ export default class AutoPostBadgePage extends ExtensionPage {
           name="tierTree"
           className="FormControl autopost"
           placeholder="fas fa-bullhorn"
-          bidi={this.setting('justoverclock-auto-post-count-badge.levelTree')}
+          bidi={this.setting('justoverclock-auto-post-count-badge.levelThree')}
         />
         <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
           <i className="fas fa-save autopost" />
@@ -327,10 +327,10 @@ export default class AutoPostBadgePage extends ExtensionPage {
         </div>
         <input
           type="text"
-          name="badgeTree"
+          name="badgeThree"
           className="FormControl autopost"
           placeholder="The Talker"
-          bidi={this.setting('justoverclock-auto-post-count-badge.badgeTree')}
+          bidi={this.setting('justoverclock-auto-post-count-badge.badgeThree')}
         />
         <Button onclick={this.saveSettings.bind(this)} className="Button Button--primary autopost">
           <i className="fas fa-save autopost" />
