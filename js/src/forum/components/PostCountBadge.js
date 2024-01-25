@@ -6,16 +6,19 @@ export default class PostCountBadge extends Component {
   view() {
     const userPosts = this.attrs.posts;
     const userClass = this.attrs.userClass;
+    console.log(userClass)
     const userBadgeLabel = this.attrs.label;
-    
+
     const isFontAwesome = /^fa/.test(userClass);
     const isFile = /^link:/.test(userClass);
 
+    console.log(userClass.replace('link:', ''))
+
     const badgeIcon = isFontAwesome ? (
-      <i class={userClass + ' autopost'} />
+      <i className={userClass + ' autopost'} />
     ) : isFile ? (
-      <img class='autopost' src={userClass.replace('link:', '')} width="26" height="26" alt={userBadgeLabel} />
-    ) : <i class='fas fa-xmark autopost' />;
+      <img className='autopost' src={userClass.replace('link:', '')} width="26" height="26" alt={userBadgeLabel} />
+    ) : <i className='fas fa-xmark autopost'></i>;
     return (
       <span>
         <Tooltip
