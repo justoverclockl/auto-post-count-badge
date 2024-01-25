@@ -8,12 +8,9 @@ export default class PostCountBadge extends Component {
     const userClass = this.attrs.userClass;
     const userBadgeLabel = this.attrs.label;
     
-    // 检测 userClass 是否以 'fa' 开头
     const isFontAwesome = /^fa/.test(userClass);
-    // 检测 userClass 是否以 'file:' 开头
     const isFile = /^file:/.test(userClass);
 
-    // 根据 userClass 的值选择使用 <i> 或 <img>
     const badgeIcon = isFontAwesome ? (
       <i class={userClass + ' autopost'} />
     ) : isFile ? (
